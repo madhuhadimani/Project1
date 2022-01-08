@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <h1>Hello world</h1>
+      <h1>Hello worlds</h1>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
